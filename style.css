@@ -265,26 +265,27 @@ input {
 .card {
     background-image: url("images2/icon (2).png");
     background-repeat: no-repeat;
-    background-position: 89%;
-    
+    background-position: 89%; 
 }
 [class*="p-t-"] {
     color: white;
     background-color: transparent;
     box-sizing: border-box;
-   
-
 }
 .main .col-md-3 {
     height: 50px;
 }
-.device {
+.device  {
     width: 270px;
     height: 180px;
     background-color: rgba(255, 255, 255, 0.75);
-    background-position: center;
     position: relative;
-    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 265px;
+}
+.p-t-4 .device  {
+    line-height: 240px;
+    
 }
 .border, .like {
     width: 30px;
@@ -313,36 +314,14 @@ input {
     background-image: url("images2/icon (7).png");
     background-color: #2c71b8;
 }
-
-.p-t-1 .device {
-    background-image: url("images2/icon (17).png");
-}  
-.p-t-2 .device, .p-t-8 .device {
-    background-image: url("images2/icon (9).png");
-}
-.p-t-3 .device, .p-t-9 .device {
-    background-image: url("images2/icon (10).png");
-}
-.p-t-4 .device {
-    background-image: url("images2/icon (16).png");
-}
-.p-t-5 .device {
-    background-image: url("images2/icon (14).png");
-}
-.p-t-6 .device {
-    background-image: url("images2/icon (12).png");
-}
-.p-t-7 .device {
-    background-image: url("images2/icon (15).png");
-}
 .slide {
     width: 100%;
     height: 400px;
 }
 .more {
     border: none;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 60px;
     color: white;
     font-size: 34px;
     font-weight: 300;
@@ -350,4 +329,8 @@ input {
     background-color: transparent;
     margin-left: 39%;
     margin-right: 37%;
+}
+.more:hover {
+    background-color: rgba(255, 255, 255, 0.342);
+    border: white 1px solid;
 }
